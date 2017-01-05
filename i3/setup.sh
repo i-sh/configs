@@ -25,3 +25,10 @@ sudo apt-get install arc-theme
 rm -rf Release.key
 
 echo "gtk-theme-name=Arc-Darker" >> ~/.config/gtk-3.0/settings.ini
+
+git clone https://github.com/nonpop/xkblayout-state.git
+cd xkblayout-state
+make
+sudo cp xkblayout-state /usr/local/bin/
+cd ..
+rm -rf xkblayout-state
