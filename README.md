@@ -1,2 +1,2 @@
 # configs
-Nothing to see here, just configs
+Nothing to see here, just configs.
